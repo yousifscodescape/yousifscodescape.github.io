@@ -1,0 +1,31 @@
+/* Yousif Al Yonani
+Feb 20, 2025 */
+
+/**************Header Section**************/
+header {
+    background-color: cornflowerblue;
+}
+
+/**************Footer Section**************/
+footer {
+    background-color: cornflowerblue;
+}
+
+/**************Paragraph Section**************/
+p, ul, li {
+    font-size: 20px;
+}
+
+/**************Link Section**************/
+a:link {
+    color: powderblue;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: teal;
+}
+a:active {
+    color: burlywood;
+}
