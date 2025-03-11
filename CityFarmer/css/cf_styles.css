@@ -21,11 +21,12 @@ margin-left: 3%;
 }
 
 main, footer { 
-clear: both;
-background-color: #C5A98B;
-padding: 10px;
+	clear: both;
 }
-
+main {
+	background-color: #C5A98B;
+	padding: 10px;
+}
 body {
 	background-color: #B8D1EB;
 	color: #000000;
@@ -51,4 +52,6 @@ main ul {
 footer {
 	background-color: #d19045;
 	text-align: center;
+	font-size: .75em;
+	padding: 10px;
 }
