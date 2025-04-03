@@ -1,0 +1,58 @@
+/*Yousif Al Yonani
+  April 1, 2025 */
+#outerwrapper {	
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	width: 70%;
+	align-content: center;
+	margin: auto;
+	margin-top: 50px;
+}
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+body {
+	background-image:url(../images/jewelry.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gradiant {
+	background: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.253em;
+}
+.addrightmargin {
+	position: relative;
+	top: -40px
+}
+img {
+	float: left;
+	border-radius: 6em;
+	margin-right: 10%;
+}
+nav ul {
+	list-style: none;
+	font-size: 1.5em;
+	float: none;
+}
+.pacifico-regular {
+	font-family: "Pacifico", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 4em;
+  }
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('Roboto-Italic-webfont.woff') format('woff');
+    font-weight: normal;
+}
+header h2 {
+	font-family: 'robotoitalic', Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 2em;
+}
