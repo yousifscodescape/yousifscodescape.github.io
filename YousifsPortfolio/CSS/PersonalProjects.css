@@ -1,25 +1,21 @@
 /*Yousif Al Yonani
 March 18, 2025*/
-.box {
-    border: 2px solid black;
-   float: left;
-    margin: 3px;
-    background: red;
-    
-}
 
 section {
     width: 90%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 .box {
 border: 2px solid black;
-float: left;
 margin: 3px;
-background: red;
+background: lightcyan;
 width: 20%;
 }
+
 footer {
     clear: left;
 }
