@@ -2,8 +2,6 @@
 March 18, 2025*/
 
 section {
-    width: 90%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
 
@@ -12,10 +10,10 @@ section {
 .box {
 border: 2px solid black;
 margin: 3px;
-background: lightcyan;
+background: rgb(37, 37, 195);
+color: white;
+text-align: center;
+font-weight: bold;
 width: 20%;
-}
-
-footer {
-    clear: left;
+border-radius: 10px;
 }
