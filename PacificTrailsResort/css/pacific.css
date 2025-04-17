@@ -7,20 +7,6 @@ img {
 h2 {
 	display: none;
 }
-/**************** Tablet ****************/
-@media screen and (min-width: 641px) {
-	img {
-		display: block;
-		max-width: 100%;
-	}
-	h2 {
-		display: block;
-	}
-	nav ul li {
-		display: inline;
-	}
-}
-/****************  CSS   ****************/
 body { 
 	background-color: #FFFFFF;
     color: #666666;
@@ -74,4 +60,18 @@ dt {
 }
 span { 
 	font-size: 90%; 
+}
+
+/**************** Tablet ****************/
+@media screen and (min-width: 641px) {
+	img {
+		display: block;
+		max-width: 100%;
+	}
+	h2 {
+		display: block;
+	}
+	nav ul li {
+		display: inline;
+	}
 }
