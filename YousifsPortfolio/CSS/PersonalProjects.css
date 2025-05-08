@@ -10,10 +10,19 @@ section {
 .box {
 border: 2px solid black;
 margin: 3px;
-background: rgb(37, 37, 195);
+background: #292C30;
 color: white;
 text-align: center;
 font-weight: bold;
 width: 20%;
 border-radius: 10px;
+}
+.button-link {
+    margin-top: 15px;
+    padding: 8px;
+    font-size: 15px;
+    background-color: #292C30;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }

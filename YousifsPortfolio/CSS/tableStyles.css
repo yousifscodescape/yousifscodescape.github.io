@@ -1,23 +1,26 @@
+/*Yousif Al Yonani*/
+/*May 6, 2025*/
+/* Table Section */
 table {
     border: 2px solid black;
-    background-color: lightblue;
     width: 80%;
     border-collapse: collapse;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 20px;
     text-align: left;
+    color: white;
 }
-
 caption {
-    color: black;
+    color: white;
     font-size: 24px;
 }
-
 thead {
-    background-color: #C5403A;
+    background-color: #44484F;
 }
-
 tr:nth-child(even){
-    background: #3ABFC5;
+    background: #606573;
+}
+th, td {
+    padding: 10px 15px;
 }

@@ -10,27 +10,70 @@ January 23, 2025-->
         <meta name="keywords" content="C# server-side HTML5 CSS3 client-side"/>
         <meta name="author" content="Yousif Al Yonani"/>
         <meta name="viewport" content="width=device, initial scale1.0"/>
+        <link href="CSS/style.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
     </head>
     <body>
         <header>
             <!-- Navigation -->
             <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="experience.html">Experience</a>
-                <a href="contact.html">Contact</a>
+                <a href="index.html" class="button">Home</a>
+                <a href="about.html" class="button">About</a>
+                <a href="experience.html" class="button">Experience</a>
+                <a href="contact.html" class="button active">Contact</a>
             </nav>
         </header>
-    
         <main>
-            <!-- Contact Page Content -->
             <h1>Contact Me</h1>
-            <p>If you would like to reach out to hire me, feel free to contact me here.</p>
-
+            <p>If you would like to reach out, feel free to contact me here.</p>
+            <form action="mailto:yousifalyonani@my.cwi.edu" enctype="text/plain" method="POST">
+                <fieldset>
+                <legend>How do I contact you?</legend>
+                    <div>         
+                        <label for="compName">Company name:</label><br>
+                        <input type="text" id="compName" name="compName"><br>
+                    </div>
+                        <label for="Person">Person to contact:</label><br>
+                        <input type="text" id="Person" name="personName">
+                    <div>
+                        <label for="Email">Email:</label>
+                        <input type="text" id="Email" name="email">
+                    </div>
+                    <div>
+                        <label for="PhoneNumber">Phone Number:</label>
+                        <input type="text" id="PhoneNumber" name="PhoneNumber">	
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>What opportunities are available at your company?</legend>
+                    <p>How did you find me?</p>
+                    <select>
+                        <option>Internship</option>
+                        <option>Part-time</option>
+                        <option>Full-time</option>
+                        <option>Contract</option>
+                        <option>Temporary</option>
+                        <option>On call</option>
+                    </select>
+                    <div>
+                        <input type="Radio" id="LinkedIn" name="Radio" value="LinkIn">
+                        <label for="LinkedIn">LinkedIn</label>
+                    </div>
+                    <div>
+                        <input type="Radio" id="JobFair" name="Radio" value="JobFair">
+                        <label for="JobFair">Job Fair</label>
+                    </div>
+                    <div>
+                        <input type="Radio" id="CWICorporatePartner" name="Radio" value="JobFair">
+                        <label for="CWICorporatePartner">CWI Corporate Partner</label>
+                    </div>
+                    <textarea id="HowShouldIPrepare?" name="HowShouldIPrepare?" rows="10" cols="100" placeholder="How Should I Prepare?"></textarea>
+                </fieldset>
+                <input type="submit" id="submit" value="Submit" class="btn">
+             </form>
             <a href="mailto:myfakeemail@yahoo.com">myfakeemail@yahoo.com</a> or
             <a href="tel+1(222)222-222">(222)222-222</a>
         </main>
-    
         <footer>
             <hr>
             <p>
