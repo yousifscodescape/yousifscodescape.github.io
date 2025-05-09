@@ -4,9 +4,7 @@ March 18, 2025*/
 section {
     display: flex;
     justify-content: space-evenly;
-
 }
-
 .box {
 border: 2px solid black;
 margin: 3px;
@@ -17,7 +15,7 @@ font-weight: bold;
 width: 20%;
 border-radius: 10px;
 }
-.button-link {
+.button {
     margin-top: 15px;
     padding: 8px;
     font-size: 15px;
@@ -25,4 +23,20 @@ border-radius: 10px;
     color: white;
     border: none;
     border-radius: 10px;
+}
+.box img
+{
+    padding-bottom:40px;
+}
+.box a.button {
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    color: #FFFFFF;
+    background: #44484F;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 1px;
 }
