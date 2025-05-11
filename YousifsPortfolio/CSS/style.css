@@ -21,6 +21,7 @@ body {
     background: linear-gradient(to bottom right,rgba(0, 0, 0, 1) 0%, rgba(61, 72, 79, 1) 91%);
     background-attachment: fixed;
 }
+
 /* Nav */
 nav {
     background-color: #292C30;
@@ -81,11 +82,14 @@ legend {
     display: flex;
     justify-content: center;
 }
+a {
+    color:lightblue;
+}
 /* Fonts */
 body {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 100;
+  font-weight: 500;
   font-style: normal;
 }
 nav {
@@ -93,4 +97,18 @@ nav {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+}
+/* Nav/Footer Layout */
+body {
+  height: 100%;
+  margin: 0;
+}
+main {
+  flex: 1;
+}
+footer {
+  background: #292C30;
+  color: white;
+  text-align: center;
+  padding: 1em;
 }
