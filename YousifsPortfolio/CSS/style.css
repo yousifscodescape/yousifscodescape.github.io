@@ -18,7 +18,7 @@ form {
 
 /* Background Color Scheme */
 body {
-    background: linear-gradient(to bottom right,rgba(0, 0, 0, 1) 0%, rgba(61, 72, 79, 1) 91%);
+    background: linear-gradient(to bottom right,rgba(0, 0, 0, 1) 50%, rgba(61, 72, 79, 1) 100%);
     background-attachment: fixed;
 }
 
