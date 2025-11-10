@@ -1,4 +1,4 @@
-## Created October, 2025
+## Project Created October, 2025
 ## Last updated: October 9th, 2025
 ---
 # The Adventures of a Lifetime
